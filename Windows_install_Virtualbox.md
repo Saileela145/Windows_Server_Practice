@@ -2,7 +2,8 @@
 
 #### --> ✅ Before You Start
           Make sure you have:
-###### ✅ VirtualBox or VMware installed [<img width="960" height="1020" alt="Screenshot 2025-07-22 000231" src="https://github.com/user-attachments/assets/c057c809-799c-4ebf-a8c1-bcd23192e3c9" />].
+###### ✅ VirtualBox or VMware installed
+[<img width="960" height="1020" alt="Screenshot 2025-07-22 000231" src="https://github.com/user-attachments/assets/c057c809-799c-4ebf-a8c1-bcd23192e3c9" />].
 
 ###### ✅ Windows Server 2022 ISO file (already with you)[<img width="996" height="693" alt="Screenshot 2025-07-21 235600" src="https://github.com/user-attachments/assets/31f5fac7-7db8-4650-88ec-676f7eb06359" />] after giving name as Windows Server 2022.The following step to do....
 
