@@ -84,7 +84,7 @@ Press Finish. [<img width="1920" height="1020" alt="Screenshot 2025-07-22 152514
 
 ✅ Step 13: First Login
 On the lock screen, press Ctrl + Alt + Del
-Enter the password → You’ll now enter Windows GUI!
+Enter the password → You’ll now enter Windows.
+password: Admin@1234.
 
-# 🎉 Done! You Have Installed Windows Server 2022 (Desktop Version)😊😊😊✅
-You’re ready to start Day 2: Active Directory Setup now!
+#                              🎉 Done! You Have Installed Windows Server 2022 (Desktop Version)😊😊😊✅
