@@ -41,11 +41,11 @@ You definitely need to install iso in vm box.
 ###### Do the things as shown in figure.
 [<img width="962" height="597" alt="Screenshot 2025-07-22 000003" src="https://github.com/user-attachments/assets/82d098c5-5675-42dc-8d34-0f58d5291db8" />]
 
-# 5.🖥️ Step 5: Start the VM
+### 5.🖥️ Step 5: Start the VM
 Click Start
 Wait for the Windows Setup screen
 
-# 6.📌 Step 6: Installation Begins
+### 6.📌 Step 6: Installation Begins
 Select:
 Language: English
 Time: India or preferred
@@ -53,29 +53,29 @@ Keyboard: US
 Click Next
 Click Install Now
 
-# 7.📌 Step 7: Choose Server Version
+### 7.📌 Step 7: Choose Server Version
 🔵 Very Important:
 Choose this option:
 ✅ Windows Server 2022 Standard (Desktop Experience)
 
 ❗ Don’t choose “Server Core” – it has no GUI.
 
-# 8.📌 Step 8: Accept License
+### 8.📌 Step 8: Accept License
 Check I accept the license terms
 Click Next
 
-# 9.📌 Step 9: Select Installation Type
+### 9.📌 Step 9: Select Installation Type
 Choose: Custom: Install Windows only
 
-# 10.📌 Step 10: Select Partition
+### 10.📌 Step 10: Select Partition
 You'll see your 50GB disk
 Click it → Press Next
 
-# 11.📌 Step 11: Let It Install
+### 11.📌 Step 11: Let It Install
 Wait while Windows installs (may take 5–10 mins).
 -->After completing that we will get sconfig box with 15 options,in that we will select exit and commandline option to go to set password.  
 
-# 12.📌 Step 12: Set Admin Password
+### 12.📌 Step 12: Set Admin Password
 Enter a strong password:
 👉 Example: Admin@123
 Press Finish. [<img width="1920" height="1020" alt="Screenshot 2025-07-22 152514" src="https://github.com/user-attachments/assets/1268fae7-5720-48b9-bca3-108437f7b615" />].
