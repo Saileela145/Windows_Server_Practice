@@ -36,44 +36,44 @@
 ## 1️⃣ Create Users:
 ```
 ##### Create Manager1 account with password Pass@123
- New-LocalUser "Manager1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force) ```
+ New-LocalUser "Manager1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force) 
 
 ```
 ##### Create Employee1 account with password Pass@123
-New-LocalUser "Employee1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force)``
+New-LocalUser "Employee1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force)
 
 ``` Enable both accounts (in case they are disabled by default)
 Enable-LocalUser -Name "Manager1"
-Enable-LocalUser -Name "Employee1"```
+Enable-LocalUser -Name "Employee1"
 
 **Expected Output:**
 ```
 Name      Enabled Description
 ----      ------- -----------
 Manager1  True
-Employee1 True              ```
+Employee1 True              
 
 ## 2️⃣ Create Folders:
 '''
 ##### Create a folder for Manager1
-New-Item -Path "D:\CompanyData\Manager1" -ItemType Directory'''
+New-Item -Path "D:\CompanyData\Manager1" -ItemType Directory
 ```
 ##### Create a folder for Employee1
-New-Item -Path "D:\CompanyData\Employee1" -ItemType Directory```
+New-Item -Path "D:\CompanyData\Employee1" -ItemType Directory
 
 **Expected Output:**
 ```
 Directory: D:\CompanyData
 d-----   <date-time>   Manager1
-d-----   <date-time>   Employee1 ```
+d-----   <date-time>   Employee1 
 
 ## 3️⃣ Remove Inherited Permissions:
 ```
 ##### Remove inherited permissions from Manager1's folder
-icacls "D:\CompanyData\Manager1" /inheritance:r```
+icacls "D:\CompanyData\Manager1" /inheritance:r
 ```
 ##### Remove inherited permissions from Employee1's folder
-icacls "D:\CompanyData\Employee1" /inheritance:r```
+icacls "D:\CompanyData\Employee1" /inheritance:r
 
 **Expected Output:**
 ```
@@ -83,28 +83,28 @@ Successfully processed 1 files; Failed processing 0 files```
 ## 4️⃣ Grant Each User Full Control of Their Own Folder:
 ```
 ##### Give Manager1 full control of their folder
-icacls "D:\CompanyData\Manager1" /grant "Manager1:(OI)(CI)F"```
+icacls "D:\CompanyData\Manager1" /grant "Manager1:(OI)(CI)F"
 ```
 ##### Give Employee1 full control of their folder
-icacls "D:\CompanyData\Employee1" /grant "Employee1:(OI)(CI)F"```
+icacls "D:\CompanyData\Employee1" /grant "Employee1:(OI)(CI)F"
 
 **Expected Output:**
 ```
 processed file: D:\CompanyData\Manager1
-Successfully processed 1 files; Failed processing 0 files```
+Successfully processed 1 files; Failed processing 0 files
 
 ## 5️⃣ Deny Access to the Other User:
 ```
 Deny Employee1 from accessing Manager1's folder
-icacls "D:\CompanyData\Manager1" /deny Employee1:RX```
+icacls "D:\CompanyData\Manager1" /deny Employee1:RX
 ```
 Deny Manager1 from accessing Employee1's folder
-icacls "D:\CompanyData\Employee1" /deny Manager1:RX```
+icacls "D:\CompanyData\Employee1" /deny Manager1:RX
 
 **Expected Output**
 ```
 processed file: D:\CompanyData\Employee1
-Successfully processed 1 files; Failed processing 0 files```
+Successfully processed 1 files; Failed processing 0 files
 
 ## 6️⃣ Test Access:
 '''
@@ -112,4 +112,4 @@ Successfully processed 1 files; Failed processing 0 files```
 runas /user:DESKTOP-PCNAME\Manager1 cmd
 
 # Run Command Prompt as Employee1
-runas /user:DESKTOP-PCNAME\Employee1 cmd '''
+runas /user:DESKTOP-PCNAME\Employee1 cmd 
