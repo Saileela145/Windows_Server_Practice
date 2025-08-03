@@ -36,7 +36,7 @@
 1️⃣ Create Users:
 # Create Manager1 account with password Pass@123
 
-"New-LocalUser "Manager1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force)"
+''' New-LocalUser "Manager1" -Password (ConvertTo-SecureString "Pass@123" -AsPlainText -Force) '''
 
 # Create Employee1 account with password Pass@123
 
