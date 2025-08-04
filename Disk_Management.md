@@ -186,7 +186,7 @@ A system administrator needs this skill to organize storage, improve performance
 > ⚠️ **Run all commands in an elevated (Run as Administrator) PowerShell** unless otherwise noted.
 
 ### 1️⃣ Check Available Disks and Volumes
-```powershell
+powershell
 Get-Disk
 Get-Volume
 Purpose: Lists all disks and their current partitions.
@@ -302,6 +302,3 @@ We learn both PowerShell automation and manual disk management.
 
 We prepare for real-world tasks like storage upgrades and disk migrations.
 
-yaml
-Copy
-Edit
