@@ -1,4 +1,4 @@
-## 📘 Day 3: Disk Management in Windows Server 2022 (Server Core)
+## Disk Management in Windows Server 2022 (Server Core)
 ##### 🧠 Objective:
 To learn how to manage disks, partitions, volumes, and file systems without GUI using diskpart in Windows Server Core. This knowledge is essential for system administrators who work with headless servers or remote setups.
 
