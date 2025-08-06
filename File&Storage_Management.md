@@ -14,10 +14,11 @@ A SysAdmin must:
 ## 📋 Step-by-Step Guide
 
 ### 1️⃣ Check Available Disks
-
-``` Get-Disk 
-
-Purpose: Lists all connected physical disks.
+```
+ Get-Disk
+ 
+/
+# Purpose: Lists all connected physical disks.
 
 Expected Output:
 
