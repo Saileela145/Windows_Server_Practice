@@ -17,8 +17,7 @@ A SysAdmin must:
 ```
  Get-Disk
  
-/
-# Purpose: Lists all connected physical disks.
+Purpose: Lists all connected physical disks.
 
 Expected Output:
 
@@ -45,12 +44,10 @@ Get-Disk : Access is denied → You’re not running as Administrator.
 No disks found → No extra disks are attached.
 
 Recovery:
-
 Run PowerShell as Administrator.
-
 Attach another virtual disk in Hyper-V/VMware and recheck.
 
-2️⃣ Initialize a New Disk
+# 2️⃣ Initialize a New Disk
 
 Initialize-Disk -Number 1 -PartitionStyle MBR
 Purpose: Prepares the disk so Windows can use it.
