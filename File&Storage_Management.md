@@ -15,7 +15,7 @@ A SysAdmin must:
 
 ### 1️⃣ Check Available Disks
 
-Get-Disk
+``` Get-Disk 
 
 Purpose: Lists all connected physical disks.
 
