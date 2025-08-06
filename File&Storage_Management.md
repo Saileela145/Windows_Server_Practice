@@ -16,7 +16,7 @@ A SysAdmin must:
 
 ### **1️⃣ Check Available Disks**
 ```powershell
-Get-Disk
+Get-Disk ```
 
 Purpose: Lists all connected physical disks.
 
