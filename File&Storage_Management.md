@@ -1,4 +1,4 @@
-# 🖥️ Day 5: File & Storage Management + Sharing & Permissions (Windows Server Core)
+# 🖥️ File & Storage Management + Sharing & Permissions (Windows Server Core)
 
 ## 🎯 Goal
 Learn how to manage disks, volumes, and shared folders in **Windows Server Core**,  
@@ -13,9 +13,10 @@ A SysAdmin must:
 - 
 ## 📋 Step-by-Step Guide
 
-### **1️⃣ Check Available Disks**
+### 1️⃣ Check Available Disks
 
 Get-Disk
+
 Purpose: Lists all connected physical disks.
 
 Expected Output:
