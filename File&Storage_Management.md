@@ -4,21 +4,17 @@
 Learn how to manage disks, volumes, and shared folders in **Windows Server Core**,  
 set correct permissions, and recover if something goes wrong.
 
----
-
 ## 📚 Why This is Important
 A SysAdmin must:
 - Manage **server storage** without breaking data.
 - Share folders **securely** with correct access.
 - **Restrict users** so only authorized people can access files.
 - **Recover** quickly if a command fails or is misconfigured.
-
----
-
+- 
 ## 📋 Step-by-Step Guide
 
 ### **1️⃣ Check Available Disks**
-```powershell
+
 Get-Disk
 Purpose: Lists all connected physical disks.
 
@@ -53,9 +49,7 @@ Run PowerShell as Administrator.
 Attach another virtual disk in Hyper-V/VMware and recheck.
 
 2️⃣ Initialize a New Disk
-powershell
-Copy
-Edit
+
 Initialize-Disk -Number 1 -PartitionStyle MBR
 Purpose: Prepares the disk so Windows can use it.
 
